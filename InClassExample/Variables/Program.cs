@@ -29,7 +29,7 @@ namespace Variables
             Console.WriteLine(FullName + " Has the favorite number of " + FavoriteNumber 
                 + " \nwhich equates to a crazy number of " + CrazyNumber);
 
-            //MAKE IT DYNAMIC
+            //MAKE IT DYNAMIC!
 
 
             Console.ReadKey();      
