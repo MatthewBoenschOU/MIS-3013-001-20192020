@@ -30,7 +30,22 @@ namespace Variables
                 + " \nwhich equates to a crazy number of " + CrazyNumber);
 
             //MAKE IT DYNAMIC!
+            Console.WriteLine("Please enter your first name: >>");
+            FirstName = Console.ReadLine();
 
+            Console.WriteLine("Please enter your last name: >>");
+            LastName = Console.ReadLine();
+
+            Console.WriteLine("Please enter your favorite number: >>");
+            string FavoriteNumberAsString = Console.ReadLine();
+            FavoriteNumber = Convert.ToInt32(FavoriteNumberAsString);
+
+            FullName = FirstName + " " + LastName;
+            CrazyNumber = 7.6767 * FavoriteNumber;
+
+            Console.WriteLine(FullName + " Has the favorite number of " + FavoriteNumber
+                + " \nwhich equates to a crazy number of " + CrazyNumber);
+           
 
             Console.ReadKey();      
         }
